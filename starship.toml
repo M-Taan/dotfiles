@@ -1,0 +1,15 @@
+add_newline = false
+
+[line_break]
+disabled = true
+
+[character]
+success_symbol = "[🛸❯](fg:#00BBC0)"
+error_symbol = "[🛸❯](fg:red)"
+
+[directory]
+style = "bold fg:244"
+read_only = " 🔐 "
+truncation_length = 4
+truncate_to_repo = false
+home_symbol = "~⛺"
