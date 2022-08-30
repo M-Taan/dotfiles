@@ -3,10 +3,11 @@ cursor:
     shape: Beam         
     unfocused_hollow: true
     thickness: 0.15
+    blinking: Never
 
 font:
   normal:
-    family: monospace
+    family: DejaVuSansMono
     style: Regular
     
   size: 12.0
