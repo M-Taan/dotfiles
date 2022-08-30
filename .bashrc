@@ -12,7 +12,5 @@ PS1='[\u@\h \W]\$ '
 eval "$(starship init bash)"
 
 
-# emacs alias
-alias emacs='emacs -nw'
 alias ll='ls -all'
 alias bye='shutdown now'
