@@ -41,3 +41,8 @@ workspace
 \#*.*\#
 .\#*.*\#
 .\#*.*
+cef_user_data
+.pulse-cookie
+.steam/
+.steampath
+.steampid       
