@@ -5,7 +5,6 @@
 # Main packagaes I am using
 * **Xorg:** Display Server 
 * **Picom:** Compositor for Xorg
-* **Nitrogen:** Managing wallpapers
 * **Solaar:** Device manager for my logitech MX Master mouse
 * **Alacritty:** Terminal Emulator
 * **Starship:** Customizable Shell Prompt
@@ -13,3 +12,4 @@
 * **Pauvcontrol:** Volume control for PulseAudio (There's some extra packagaes to get my Arrowing theme volume widget in AwesomeWM to work, check https://github.com/M-Taan/awesome#some-tips)
 * **Emacs:** Text editor (https://github.com/M-Taan/emacs.d)
 * **Blueman:** Bluetooth Manager
+* **Mime:** For taking screenshots

@@ -47,4 +47,6 @@ cef_user_data
 .steampath
 .steampid
 QtProject.conf
-flameshot/      
+flameshot/
+Pictures/
+nomacs
