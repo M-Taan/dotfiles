@@ -13,5 +13,6 @@ eval "$(starship init bash)"
 
 
 alias ll='ls -all'
-alias emacst='emacs -nw'
+alias emacst='emacsclient -c -nw'
+alias emacs='emacsclient -c'
 alias bye='shutdown now'
