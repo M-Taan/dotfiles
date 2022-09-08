@@ -12,4 +12,5 @@
 * **Pauvcontrol:** Volume control for PulseAudio (There's some extra packagaes to get my Arrowing theme volume widget in AwesomeWM to work, check https://github.com/M-Taan/awesome#some-tips)
 * **Emacs:** Text editor (https://github.com/M-Taan/emacs.d)
 * **Blueman:** Bluetooth Manager
-* **Mime:** For taking screenshots
+* **Maim:** For taking screenshots
+* **LightDM:** LightDM + Web greeter (gruvbox theme)
