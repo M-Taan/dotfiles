@@ -42,7 +42,7 @@ case $command_num in
 
     if [[ $default_ans =~ ^(yes|y)$ ]];
     then
-      xrandr --output eDP --mode 2560x1600 --rate 120.00 --output HDMI-A-0 --mode 1920x1080 --rate 120.00 --primary --right-of eDP
+      xrandr --output eDP-1 --mode 2560x1600 --rate 120.00 --output HDMI-1 --mode 1920x1080 --rate 120.00 --primary --right-of eDP-1
       exit 0
 
     elif [[ $default_ans =~ ^(no|n)$ ]];
@@ -58,7 +58,7 @@ case $command_num in
       
       read -p "Specify the refresh rate of the external display on the HDMI output: " extended_rate
       
-      xrandr --output eDP --mode 2560x1600 --rate 120.00 --output HDMI-A-0 --mode "$extended_mode" --rate "$extended_rate" --primary --right-of eDP
+      xrandr --output eDP-1 --mode 2560x1600 --rate 120.00 --output HDMI-1 --mode "$extended_mode" --rate "$extended_rate" --primary --right-of eDP-1
 
     else
       echo "Wrong input..."
