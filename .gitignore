@@ -55,3 +55,6 @@ xfce4
 chromium
 .dmrc
 .face
+.xsession-errors*
+.clojure
+.clojure_history
