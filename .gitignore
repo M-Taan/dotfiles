@@ -7,7 +7,7 @@ light
 mimeapps.list
 neofetch
 nitrogen
-pavucontrol.ini 
+pavucontrol.ini
 pulse
 spotify
 vlc
@@ -58,3 +58,7 @@ chromium
 .xsession-errors*
 .clojure
 .clojure_history
+.gitlibs
+.openjfx
+.reveal
+temp/
