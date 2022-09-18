@@ -34,5 +34,5 @@ fi
 solaar --window=hide &
 picom --experimental-backend &
 xset s 600 900 &
-xss-lock -- dm-tool lock &
+xss-lock --ignore-sleep -- dm-tool lock &
 exec awesome
