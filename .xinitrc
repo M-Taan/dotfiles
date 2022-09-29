@@ -33,6 +33,7 @@ fi
 # running picom with --experimental-backend flag will prevent screen tearing
 solaar --window=hide &
 picom --experimental-backend &
-xset s 600 900 &
+xset -dpms &
+xset s 1200 0 &
 xss-lock --ignore-sleep -- dm-tool lock &
 exec awesome

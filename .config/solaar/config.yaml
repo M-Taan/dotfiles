@@ -1,8 +1,9 @@
-- 1.1.4
+- 1.1.5
 - _NAME: Wireless Mouse MX Master 2S
   _absent: [hi-res-scroll, lowres-scroll-mode, thumb-scroll-invert, thumb-scroll-mode, onboard_profiles, report_rate, pointer_speed, speed-change, backlight,
     backlight-timed, fn-swap, persistent-remappable-keys, disable-keyboard-keys, crown-smooth, divert-crown, divert-gkeys, m-key-leds, mr-key-led, multiplatform,
     gesture2-params, sidetone, equalizer]
+  _battery: 4096
   _modelId: B01940690000
   _sensitive: {dpi: false, hires-smooth-invert: false}
   _unitId: F88760BA
