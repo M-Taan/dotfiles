@@ -34,4 +34,6 @@ fi
 solaar --window=hide &
 picom --experimental-backend &
 xset -dpms &
+xset s 600 0 &
+xss-lock --ignore-sleep -- betterlockscreen --lock &
 exec awesome
