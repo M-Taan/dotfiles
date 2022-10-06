@@ -13,7 +13,7 @@
 * **Emacs:** Text editor (https://github.com/M-Taan/emacs.d)
 * **Blueman:** Bluetooth Manager
 * **Maim:** For taking screenshots
-* **LightDM:** LightDM + Web greeter (gruvbox theme)
+* **SDDM:** Display Manager
 
 # Misc
 * **Theme and Icons**: Adwaita-dark and Papirus-Dark (lxappearance)
