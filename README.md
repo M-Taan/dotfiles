@@ -14,6 +14,7 @@
 * **Blueman:** Bluetooth Manager
 * **Maim:** For taking screenshots
 * **SDDM:** Display Manager
+* **Lockscreen** Betterscreenlock
 
 # Misc
 * **Theme and Icons**: Adwaita-dark and Papirus-Dark (lxappearance)
