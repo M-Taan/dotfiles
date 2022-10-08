@@ -68,3 +68,6 @@ temp/
 .mysql_history
 .local/bin/
 .fehbg
+.java/
+.minecraft/
+.tlauncher/
