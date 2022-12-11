@@ -16,6 +16,7 @@
 * **SDDM:** Display Manager
 * **Lockscreen:** Betterscreenlock
 * **Nitrogen:** For wallpapers
+* **Playerctl:** Controlling media players
 
 # Misc
 * **Theme and Icons**: Adwaita-dark and Papirus-Dark (lxappearance)

@@ -39,4 +39,5 @@ picom &
 xset -dpms &
 xset s 600 0 &
 xss-lock --ignore-sleep -- betterlockscreen --lock &
+playerctld daemon &
 exec awesome
