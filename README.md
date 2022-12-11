@@ -8,13 +8,14 @@
 * **Solaar:** Device manager for my logitech MX Master mouse
 * **Alacritty:** Terminal Emulator
 * **Starship:** Customizable Shell Prompt
-* **PulseAudio:** Sound Sever
+* **Pipewire and Pipewire-pulse:** Sound Sever
 * **Pauvcontrol:** Volume control for PulseAudio (There's some extra packagaes to get my Arrowing theme volume widget in AwesomeWM to work, check https://github.com/M-Taan/awesome#some-tips)
 * **Emacs:** Text editor (https://github.com/M-Taan/emacs.d)
 * **Blueman:** Bluetooth Manager
 * **Maim:** For taking screenshots
 * **SDDM:** Display Manager
-* **Lockscreen** Betterscreenlock
+* **Lockscreen:** Betterscreenlock
+* **Nitrogen:** For wallpapers
 
 # Misc
 * **Theme and Icons**: Adwaita-dark and Papirus-Dark (lxappearance)
