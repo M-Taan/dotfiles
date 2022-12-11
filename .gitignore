@@ -71,3 +71,11 @@ temp/
 .java/
 .minecraft/
 .tlauncher/
+.config/Code/
+.config/autostart/
+.config/google-chrome/
+.config/teamviewer/
+.local/
+.ssr/
+.vscode/
+.clojure_history*
