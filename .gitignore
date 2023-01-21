@@ -79,3 +79,5 @@ temp/
 .ssr/
 .vscode/
 .clojure_history*
+.config/libreoffice/
+personal/
