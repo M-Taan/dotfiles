@@ -81,3 +81,10 @@ temp/
 .clojure_history*
 .config/libreoffice/
 personal/
+.config/htop/
+.config/meld/
+.config/ngrok/
+.docker/
+.neo4j/
+NEO4J_HOME/
+org/

@@ -1,0 +1,32 @@
+{:additional-snippets
+ [{:name "rfn"
+   :detail "web middleware rfn macro"
+   :snippet
+   "(rfn ${1:name} [info]
+     {:url ${2:url}
+      :method ${3:method}
+      :fields ${4:fields}}
+     (let [response $0\"\"
+           status \"\"
+           message \"\"]
+       {:status status
+        :message message
+        :data response}))"}
+  {:name "regd"
+   :detail "reg-event-db without ajax"
+   :snippet
+   "(reg-event-db
+ $1
+ (fn [db [_ $2]]
+   $0))"}
+  {:name "rega"
+   :detail "reg-event-db with an ajax"
+   :snippet
+   "(reg-event-db
+ :${1:event-key}
+ (fn [db [event-key ${2:params}]]
+   (ajax :db db :event event-key
+         :url (calc-route ${3:url})
+         :method ${4:method}
+         :params ${5:params}
+         :on-success (fn [] $0))))"}]}
