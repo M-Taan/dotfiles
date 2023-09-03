@@ -1,1 +1,1 @@
-/home/mmt/.xinitrc
+.xinitrc

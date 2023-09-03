@@ -1,0 +1,10 @@
+#!/bin/bash
+
+sed -i 's/Xft.dpi: 122/Xft.dpi: 144/' $HOME/.Xresources
+xrdb $HOME/.Xresources
+
+sed -i 's/DejaVu Sans Mono-10/DejaVu Sans Mono-12/' $HOME/.emacs.d/init.el
+kill $(ps aux | grep "/usr/local/bin/emacs --daemon" | awk '{print $2}') > /dev/null 2>&1
+/usr/local/bin/emacs --daemon &
+
+sed -i -e 's/Terminus 10/Terminus 12/' -e 's/dpi(14)/dpi(16)/' -e 's/dpi(122)/dpi(144)/'  $HOME/.config/awesome/themes/arrowing/theme.lua
