@@ -4,7 +4,13 @@ PATH_TO_SAVE=$HOME/Pictures/screenshots
 FILE_NAME=$(date +%s).png
 
 maim -s $PATH_TO_SAVE/$FILE_NAME
-xclip -selection clipboard -t image/png $PATH_TO_SAVE/$FILE_NAME
-notify-send "Saved and coped to the clipboard"
 
+EXIT_STATUS=$?
 
+if [ $EXIT_STATUS -eq 0 ]
+then
+   xclip -selection clipboard -t image/png $PATH_TO_SAVE/$FILE_NAME
+   notify-send "Saved and coped to the clipboard"
+else
+ exit $EXIT_STATUS
+fi
