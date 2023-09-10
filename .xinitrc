@@ -30,13 +30,13 @@ if [ -d /etc/X11/xinit/xinitrc.d ] ; then
  unset f
 fi
 
-#/usr/bin/pipewire &
-#/usr/bin/pipewire-pulse &
-#/usr/bin/pipewire-media-session &
+pulseaudio --start &
 solaar --window=hide &
+nitrogen --restore &
 picom &
 xset -dpms &
 xset s 600 0 &
 xss-lock --ignore-sleep -- betterlockscreen --lock &
 playerctld daemon &
-exec awesome
+dunst &
+exec stumpwm
