@@ -32,11 +32,9 @@ fi
 
 pulseaudio --start &
 solaar --window=hide &
-nitrogen --restore &
 picom &
 xset -dpms &
 xset s 600 0 &
 xss-lock --ignore-sleep -- betterlockscreen --lock &
 playerctld daemon &
-dunst &
 exec stumpwm
