@@ -1,4 +1,4 @@
-- 1.1.9
+- 1.1.10
 - _NAME: Wireless Mouse MX Master 2S
   _absent: [hi-res-scroll, lowres-scroll-mode, thumb-scroll-invert, thumb-scroll-mode, onboard_profiles, report_rate, pointer_speed, speed-change, backlight,
     backlight-timed, fn-swap, persistent-remappable-keys, disable-keyboard-keys, crown-smooth, divert-crown, divert-gkeys, m-key-leds, mr-key-led, multiplatform,
@@ -36,10 +36,6 @@
   scroll-ratchet: 2
   smart-shift: 16
 - _NAME: Wireless Mouse MX Master 2S
-  _absent: [hi-res-scroll, lowres-scroll-mode, thumb-scroll-invert, thumb-scroll-mode, onboard_profiles, report_rate, pointer_speed, speed-change, backlight,
-    backlight-timed, fn-swap, persistent-remappable-keys, disable-keyboard-keys, crown-smooth, divert-crown, divert-gkeys, m-key-leds, mr-key-led, multiplatform,
-    gesture2-params, sidetone, equalizer, adc_power_management]
-  _battery: 4096
   _sensitive: {hires-scroll-mode: ignore, hires-smooth-invert: ignore, hires-smooth-resolution: ignore}
   _unitId: F88760BA
   change-host: null

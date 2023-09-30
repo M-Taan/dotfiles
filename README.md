@@ -8,8 +8,8 @@
 * **Solaar:** Device manager for my logitech MX Master mouse
 * **Alacritty:** Terminal Emulator
 * **Starship:** Customizable Shell Prompt
-* **Pulseaudio:** Sound Sever (pulseaudio-alsa, pulseaudio-bluetooth for bluetooth headset)
-* **Pauvcontrol:** Volume control for PulseAudio
+* **Pipewire:** pipewire, pipewire-pulse, pipewire-alsa
+* **Pauvcontrol:** Volume Control
 * **Emacs:** Text editor (https://github.com/M-Taan/emacs.d)
 * **Blueman:** Bluetooth Manager
 * **Maim:** For taking screenshots
