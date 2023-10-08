@@ -37,4 +37,5 @@ xset s 600 0 &
 xss-lock --ignore-sleep -- betterlockscreen --lock &
 playerctld daemon &
 dropbox &
+spotifyd --autoplay -u $SPOTIFY_USERNAME -p $SPOTIFY_PASSWORD &
 exec stumpwm
