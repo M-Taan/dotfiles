@@ -1,0 +1,6 @@
+.local/bin/club-member-tmux.sh
+.local/bin/club-tmux.sh
+.local/bin/deployer-tmux.sh
+.local/bin/padelist-tmux.sh
+.local/bin/logger-tmux.sh
+.local/bin/maharat-tmux.sh

@@ -31,8 +31,7 @@ if [ -d /etc/X11/xinit/xinitrc.d ] ; then
 fi
 
 solaar --window=hide &
-# unredir-if-possible: specifically when playing games so that picom won't cuase any issues
-picom --unredir-if-possible &
+picom &
 xset -dpms &
 xset s 600 0 &
 xss-lock --ignore-sleep -- betterlockscreen --lock &
