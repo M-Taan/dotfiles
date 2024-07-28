@@ -23,12 +23,12 @@ vim.opt.cursorline = true
 
 vim.opt.scrolloff = 10
 
--- [[ Basic Keymaps ]]
---  See `:help vim.keymap.set()`
-
--- Set highlight on search, but clear on pressing <Esc> in normal mode
 vim.opt.hlsearch = true
-vim.keymap.set('n', '<ctr-c>', '<cmd>nohlsearch<CR>')
+
+-- [[ Basic Keymaps ]]
+vim.keymap.set({'i', 'n', 'v'}, '<C-C>', '<esc>', { desc = 'Make Ctrl+C behave exactly like escape.' })
+
+vim.keymap.set('n', '<esc>', '<cmd>nohlsearch<CR>')
 
 require('config.lazy')
 

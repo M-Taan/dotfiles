@@ -25,6 +25,7 @@ return {
         },
       },
       clojure_lsp = {},
+      zls = {},
     }
 
     require('mason').setup()
@@ -47,6 +48,10 @@ return {
           require('lspconfig')[server_name].setup(server)
         end,
       },
+    })
+
+    vim.diagnostic.config({
+      update_in_insert = true,
     })
   end,
 }
