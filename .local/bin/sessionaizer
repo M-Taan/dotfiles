@@ -1,0 +1,24 @@
+#/usr/bin/env bash
+
+selected_project=$(find ~/workspace/rams/ ~/workspace/personal -mindepth 1 -maxdepth 1 -type d | fzf)
+
+session_name=$(basename "$selected_project")
+tmux_session_exists=$(tmux has-session -t=$session_name 2>/dev/null && echo 0)
+
+if [[ -z $tmux_session_exists ]] && [[ -n $TMUX ]]; then
+	tmux new-session -ds $session_name -c $selected_project
+	tmux switch-client -t $session_name
+	exit 0
+fi
+
+if [[ -n $tmux_session_exists ]] && [[ -z $TMUX ]]; then
+	tmux a -t $session_name
+	exit 0
+fi
+
+if [[ -z $tmux_session_exists ]] && [[ -z $TMUX ]]; then
+	tmux new-session -s $session_name -c $selected_project
+	exit 0
+fi
+
+tmux switch-client -t $session_name
