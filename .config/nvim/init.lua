@@ -5,7 +5,7 @@ vim.opt.number = true
 
 vim.opt.relativenumber = true
 
-vim.opt.showmode = false
+vim.opt.showmode = true
 
 vim.opt.breakindent = true
 
